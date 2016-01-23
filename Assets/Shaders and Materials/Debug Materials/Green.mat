@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Green
+  m_Shader: {fileID: 4800000, guid: 6a0066ff29138c347b83f17b767dc0bd, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LocalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SmoothMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RSRM
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Smoothness
+        second: 3.375
+      data:
+        first:
+          name: _Metalicity
+        second: 0
+      data:
+        first:
+          name: _Wrap
+        second: .25
+      data:
+        first:
+          name: _BumpDepth
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .338992238, g: .838235259, b: .342435241, a: 1}
+      data:
+        first:
+          name: _LocalColor
+        second: {r: .356048614, g: .619607866, b: .298869669, a: .501960814}
+      data:
+        first:
+          name: _MainColor
+        second: {r: .359518021, g: .549019635, b: .286351413, a: .501960814}

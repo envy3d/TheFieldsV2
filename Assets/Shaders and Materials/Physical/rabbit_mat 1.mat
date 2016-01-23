@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: rabbit_mat 1
+  m_Shader: {fileID: 4800000, guid: 6a0066ff29138c347b83f17b767dc0bd, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 5b06684ed32085c4d98956735f3c3036, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 529a07a423460a24e88941e3342f5ebe, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LocalTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 5b06684ed32085c4d98956735f3c3036, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SmoothMap
+        second:
+          m_Texture: {fileID: 2800000, guid: f5f0b170c99dd5d44af85c27991cb3d6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: f5f0b170c99dd5d44af85c27991cb3d6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RSRM
+        second:
+          m_Texture: {fileID: 2800000, guid: d78feb20c4ce28340ae916adb8acf294, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Smoothness
+        second: 12
+      data:
+        first:
+          name: _Metalicity
+        second: 1
+      data:
+        first:
+          name: _Wrap
+        second: 0.7
+      data:
+        first:
+          name: _BumpDepth
+        second: 1.63
+      data:
+        first:
+          name: _Metallicity
+        second: 0.51785713
+    m_Colors:
+      data:
+        first:
+          name: _LocalColor
+        second: {r: 1, g: 0.9493077, b: 0.9338235, a: 0.5019608}
+      data:
+        first:
+          name: _MainColor
+        second: {r: 1, g: 1, b: 1, a: 1}
