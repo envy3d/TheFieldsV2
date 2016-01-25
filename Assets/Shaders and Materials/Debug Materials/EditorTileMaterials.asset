@@ -9,5 +9,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0896df03c9717ee49bd51e1ade1ecf96, type: 3}
-  m_Name: New Debug Tile Materials
+  m_Name: EditorTileMaterials
   m_EditorClassIdentifier: 
+  landmineMat: {fileID: 2100000, guid: 431f5ae2f2502dc45812b04d294e67e8, type: 2}
+  startMat: {fileID: 2100000, guid: 014f10f98d1df814c8a9158f282f03fb, type: 2}
+  finishMat: {fileID: 2100000, guid: 129b8e6bf709e6d4fb53d07483e30f52, type: 2}
+  normalTraversableMat: {fileID: 2100000, guid: 5a22bfc2c49c31e468233c0ca23c03f0,
+    type: 2}
+  normalNontraversableMat: {fileID: 2100000, guid: 6a97974a03d2f1a4fb286ad65bd21868,
+    type: 2}
+  obstacleMat: {fileID: 2100000, guid: 9aa67fc65d9ef294bbdd9d643b96c460, type: 2}
+  defaultMat: {fileID: 2100000, guid: 44df52a50f555ca4792ba8d2e938fd7d, type: 2}
+  invalidMat: {fileID: 2100000, guid: afd5689b281058f47b4513d09c209163, type: 2}

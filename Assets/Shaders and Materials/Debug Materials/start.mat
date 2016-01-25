@@ -2,20 +2,29 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 3
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Blue
+  m_Name: start
   m_Shader: {fileID: 4800000, guid: 6a0066ff29138c347b83f17b767dc0bd, type: 3}
-  m_ShaderKeywords: []
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
   m_CustomRenderQueue: -1
+  stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
       data:
         first:
           name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMap
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -43,13 +52,6 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _NormalMap
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
           name: _RSRM
         second:
           m_Texture: {fileID: 0}
@@ -67,7 +69,7 @@ Material:
       data:
         first:
           name: _Wrap
-        second: .25
+        second: 0.25
       data:
         first:
           name: _BumpDepth
@@ -76,12 +78,12 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .338992238, g: .425068617, b: .838235259, a: 1}
+        second: {r: 0.33899224, g: 0.42506862, b: 0.83823526, a: 1}
       data:
         first:
           name: _LocalColor
-        second: {r: .286505163, g: .46479857, b: .90196079, a: .501960814}
+        second: {r: 0.28650516, g: 0.5412001, b: 0.9019608, a: 0.5019608}
       data:
         first:
           name: _MainColor
-        second: {r: .363875419, g: .558728576, b: .937254906, a: .501960814}
+        second: {r: 0.36387542, g: 0.5587286, b: 0.9372549, a: 0.5019608}
