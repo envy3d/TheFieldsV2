@@ -540,15 +540,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 4.67
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.26999998
+      value: 2.27
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2.18000007
+      value: 4.12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -637,6 +637,22 @@ Prefab:
     - target: {fileID: 100002, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
+      propertyPath: posOffset.y
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
+      propertyPath: posOffset.z
+      value: -2.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
+      propertyPath: useCurrentOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
@@ -4152,7 +4168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7061,7 +7077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.27058825}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7768,6 +7784,10 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 46c98b6b87c60e744a7ac0dde2097dd8, type: 2}
+      propertyPath: appearance
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46c98b6b87c60e744a7ac0dde2097dd8, type: 2}
   m_IsPrefabParent: 0
@@ -8007,6 +8027,14 @@ Prefab:
     - target: {fileID: 100000, guid: 46c98b6b87c60e744a7ac0dde2097dd8, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 46c98b6b87c60e744a7ac0dde2097dd8, type: 2}
+      propertyPath: appearance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 46c98b6b87c60e744a7ac0dde2097dd8, type: 2}
+      propertyPath: properties
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46c98b6b87c60e744a7ac0dde2097dd8, type: 2}

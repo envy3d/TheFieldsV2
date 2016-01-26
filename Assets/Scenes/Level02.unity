@@ -622,15 +622,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.26999998
+      value: 2.27
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2.18000007
+      value: 7.4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -686,11 +686,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: shakeIntensity.m_Curve.Array.data[1].time
-      value: .186337501
+      value: 0.1863375
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: shakeIntensity.m_Curve.Array.data[1].value
-      value: 2.17053318
+      value: 2.1705332
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: m_TagString
@@ -698,19 +698,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: shakeIntensity.m_Curve.Array.data[1].inSlope
-      value: -5.05304193
+      value: -5.053042
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: shakeIntensity.m_Curve.Array.data[1].outSlope
-      value: -5.05304193
+      value: -5.053042
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: shakeIntensity.m_Curve.Array.data[0].inSlope
-      value: 43.5820312
+      value: 43.58203
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: shakeIntensity.m_Curve.Array.data[0].outSlope
-      value: 43.5820312
+      value: 43.58203
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: m_IsActive
@@ -719,6 +719,22 @@ Prefab:
     - target: {fileID: 100002, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
+      propertyPath: useCurrentOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
+      propertyPath: posOffset.y
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
+      propertyPath: posOffset.z
+      value: -2.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3f54fe2e13e723449749cf55699834c, type: 2}
@@ -944,19 +960,19 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 52663eed6a41a6745971a50e5e802718, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -.911971867
+      value: -0.91197187
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52663eed6a41a6745971a50e5e802718, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.76000166
+      value: 2.7600017
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52663eed6a41a6745971a50e5e802718, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 3.83759093
+      value: 3.837591
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52663eed6a41a6745971a50e5e802718, type: 2}
       propertyPath: m_LocalRotation.x
-      value: .707106829
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52663eed6a41a6745971a50e5e802718, type: 2}
       propertyPath: m_LocalRotation.y
@@ -968,11 +984,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52663eed6a41a6745971a50e5e802718, type: 2}
       propertyPath: m_LocalRotation.w
-      value: .707106829
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 52663eed6a41a6745971a50e5e802718, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 52663eed6a41a6745971a50e5e802718, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52663eed6a41a6745971a50e5e802718, type: 2}
@@ -1205,7 +1225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8386,7 +8406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.27058825}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
