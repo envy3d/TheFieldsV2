@@ -32,12 +32,10 @@ public class TileScriptEditor : Editor
         
         if (oldTileApprearance != ta || oldTileProperties != tp)
         {
-            //var renderer = ((TileScript)serializedObject.targetObject).GetComponent<Renderer>();
             MonoBehaviour[] targetComponents = GetMonoBehaviours(serializedObject.targetObjects);
 
             if ((tp & TileProperty.Landmine) == TileProperty.Landmine && ta != TileAppearance.Normal)
             {
-                //renderer.sharedMaterial = tileMaterials.invalidMat;
                 ChangeMaterialForAllObjects(targetComponents, tileMaterials.invalidMat);
             }
             else if ((tp & TileProperty.Traversable) == TileProperty.Traversable &&
@@ -52,18 +50,14 @@ public class TileScriptEditor : Editor
             }
             else if ((tp & TileProperty.Landmine) == TileProperty.Landmine)
             {
-                //renderer.sharedMaterial = tileMaterials.landmineMat;
                 ChangeMaterialForAllObjects(targetComponents, tileMaterials.landmineMat);
-
             }
             else if ((tp & TileProperty.Start) == TileProperty.Start)
             {
-                //renderer.sharedMaterial = tileMaterials.startMat;
                 ChangeMaterialForAllObjects(targetComponents, tileMaterials.startMat);
             }
             else if ((tp & TileProperty.Finish) == TileProperty.Finish)
             {
-                //renderer.sharedMaterial = tileMaterials.finishMat;
                 ChangeMaterialForAllObjects(targetComponents, tileMaterials.finishMat);
             }
             else if (ta == TileAppearance.Obstacle)
@@ -72,7 +66,6 @@ public class TileScriptEditor : Editor
             }
             else if ((tp & TileProperty.Traversable) == TileProperty.Traversable)
             {
-                //renderer.sharedMaterial = tileMaterials.normalTraversableMat;
                 ChangeMaterialForAllObjects(targetComponents, tileMaterials.normalTraversableMat);
             }
             else if ((tp & TileProperty.Traversable) != TileProperty.Traversable && ta == TileAppearance.Normal)
@@ -81,7 +74,6 @@ public class TileScriptEditor : Editor
             }
             else
             {
-                //renderer.sharedMaterial = tileMaterials.defaultMat;
                 ChangeMaterialForAllObjects(targetComponents, tileMaterials.defaultMat);
             }
         }
