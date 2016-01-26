@@ -12,21 +12,21 @@ public class PlayerController : MonoBehaviour
     public float movePositionTime = 0.5f;
     public float startUpTime = 1.5f;
 
-    private int numHops;
-    private int numJumps;
-    private int numDigs;
+    protected int numHops;
+    protected int numJumps;
+    protected int numDigs;
 
-    private MapScript map;
-    private GameManagerScript gms;
-    private JumpScript bunny;
-    private Timer initTimer;
-    private Timer jumpTimer;
-    private Timer digTimer;
-    private Timer movePositionTimer;
-    private bool jumpFinished = true;
-    private bool digFinished = true;
-    private bool activated = false;
-    private Vector2 moveDisplacement = new Vector2();
+    protected MapScript map;
+    protected GameManagerScript gms;
+    protected JumpScript bunny;
+    protected Timer initTimer;
+    protected Timer jumpTimer;
+    protected Timer digTimer;
+    protected Timer movePositionTimer;
+    protected bool jumpFinished = true;
+    protected bool digFinished = true;
+    protected bool activated = false;
+    protected Vector2 moveDisplacement = new Vector2();
 
 
 	void Start()
@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
         initTimer.Restart();
     }
 
-    private void Move(Vector2 direction, int distance)
+    protected void Move(Vector2 direction, int distance)
     {
         int tilesToMove = FindJumpableDistance(distance, new Vector2(transform.position.x, transform.position.z), direction);
         moveDisplacement.x = direction.x * tilesToMove;
@@ -119,7 +119,7 @@ public class PlayerController : MonoBehaviour
         movePositionTimer.Restart();
     }
 
-    private int FindJumpableDistance(int jumpDistance, Vector2 pos, Vector2 dir)
+    protected int FindJumpableDistance(int jumpDistance, Vector2 pos, Vector2 dir)
     {
         for (int distance = 1; distance <= jumpDistance; ++distance)
         {
@@ -131,7 +131,7 @@ public class PlayerController : MonoBehaviour
         return jumpDistance;
     }
 
-    private void Dig()
+    protected void Dig()
     {
         if (map.DigTile((int)Mathf.Round(transform.position.x), (int)Mathf.Round(transform.position.z)))
         {
@@ -141,7 +141,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void HandlePlayerInput()
+    protected virtual void HandlePlayerInput()
     {
         if (ReadyForAction())
         {
@@ -173,29 +173,29 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void StartJump()
+    protected void StartJump()
     {
         jumpFinished = false;
         jumpTimer.Restart();
     }
 
-    private void StartDig()
+    protected void StartDig()
     {
         digFinished = false;
         digTimer.Restart();
     }
 
-    private void FinishJump()
+    protected void FinishJump()
     {
         jumpFinished = true;
     }
 
-    private void FinishDig()
+    protected void FinishDig()
     {
         digFinished = true;
     }
 
-    private bool ReadyForAction()
+    protected bool ReadyForAction()
     {
         return activated && jumpFinished && digFinished;
     }
