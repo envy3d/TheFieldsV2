@@ -7,7 +7,7 @@ public class ConstrainToAnother : MonoBehaviour
 	public Transform rotationTarget = null;
 	public bool useSmooth = false;
 	public Vector3 posOffset = Vector3.zero;
-	public bool useCurrnentOffset = true;
+	public bool useCurrentOffset = true;
 	public bool useRelativeOffset = false;
 	public bool usePredictPosition = false;
 	public float posSmooth = 1f;
@@ -23,7 +23,7 @@ public class ConstrainToAnother : MonoBehaviour
 	// Update is called once per frame
 	void Start ()
 	{
-		if (useCurrnentOffset == true)
+		if (useCurrentOffset == true)
 		{
 			posOffset = transform.position - positionTarget.position;
 		}
